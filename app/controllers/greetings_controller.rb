@@ -1,4 +1,4 @@
-class GeetingsController < ApplicationController
+class GreetingsController < ApplicationController
     def say_hello
         
     end
