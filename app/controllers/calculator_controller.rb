@@ -5,8 +5,8 @@ class CalculatorController < ApplicationController
     end
 
     def compute_add
-        first = params[:first]to_i
-        last = params[:last]to_i
+        first = params[:first].to_i
+        last = params[:last].to_i
         @total = first + last
     end
 end
